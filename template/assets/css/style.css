@@ -6329,6 +6329,7 @@ html.menu-opened body {
 -----------------------*/
 
 @media only screen and (min-width:768px) {
+	
 	.avatar-xxl {
 		width: 8rem;
 		height: 8rem;
@@ -6349,6 +6350,7 @@ html.menu-opened body {
 	}
 }
 @media (min-width: 992px) {
+	
 	.main-nav > li {
 		margin-right: 30px;
 	}
@@ -6462,6 +6464,7 @@ html.menu-opened body {
 		-ms-transform: translateY(20px);
 		transform: translateY(20px);
 	}
+	
 }
 
 @media only screen and (max-width: 1399px) {
@@ -6729,6 +6732,9 @@ html.menu-opened body {
 	}
 }
 @media only screen and (max-width: 767.98px) {
+	.footer .footer-widget .footer-logo img {
+		width: 50%;
+	}
 	body {
 		font-size: 0.875rem;
 	}
@@ -7082,6 +7088,9 @@ html.menu-opened body {
 }
 
 @media only screen and (max-width: 575.98px) {
+	.footer .footer-widget .footer-logo img {
+		width: 50%;
+	}
 	body {
 		font-size: 0.8125rem;
 	}
@@ -7298,6 +7307,9 @@ html.menu-opened body {
 }
 
 @media only screen and (max-width:479px) {
+	.footer .footer-widget .footer-logo img {
+		width: 50%;
+	}
 	.section-search {
 		min-height: 410px;
 		padding: 30px 15px;
