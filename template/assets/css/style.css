@@ -2030,6 +2030,9 @@ html.menu-opened body {
 .footer .footer-widget .footer-logo {
 	margin-bottom: 30px;
 }
+.footer .footer-widget .footer-logo img{
+	width: 75%;
+}
 .footer .footer-widget .footer-about-content p {
 	color: #fff;
 }
@@ -2913,12 +2916,7 @@ html.menu-opened body {
     flex: 0 0 200px;
     max-width: 200px;
 }
-.doctor-img {
-    -ms-flex: 0 0 150px;
-    flex: 0 0 150px;
-    margin-right: 20px;
-    width: 150px;
-}
+
 .doctor-img img {
 	border-radius: 5px;
 }
@@ -3070,12 +3068,10 @@ html.menu-opened body {
     font-weight: 500;
 }
 .doctor-action {
-	display: -webkit-box;
-	display: -ms-flexbox;
-	display: flex;
-    -ms-flex-wrap: wrap;
-    flex-wrap: wrap;
     margin-bottom: 15px;
+}
+.doctor-action span{
+    float: right;
 }
 .doctor-action a + a {
 	margin-left: 8px;
@@ -7030,9 +7026,6 @@ html.menu-opened body {
 	}
 	.clinic-services {
 		display: none;
-	}
-	.doctor-img {
-		margin: 0 auto 20px;
 	}
 	.doctor-action {
 		justify-content: center;

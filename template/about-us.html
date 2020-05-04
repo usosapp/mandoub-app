@@ -32,11 +32,8 @@
 	<link rel="stylesheet" href="assets/plugins/fontawesome/css/fontawesome.min.css">
 	<link rel="stylesheet" href="assets/plugins/fontawesome/css/all.min.css">
 
-	<!-- Datetimepicker CSS -->
-	<link rel="stylesheet" href="assets/css/bootstrap-datetimepicker.min.css">
-
-	<!-- Select2 CSS -->
-	<link rel="stylesheet" href="assets/plugins/select2/css/select2.min.css">
+	<!-- Fancybox CSS -->
+	<link rel="stylesheet" href="assets/plugins/fancybox/jquery.fancybox.min.css">
 
 	<!-- Main CSS -->
 	<link rel="stylesheet" href="assets/css/style.css">
@@ -56,7 +53,7 @@
 
 </head>
 
-<body class="account-page">
+<body>
 
 	<!-- Main Wrapper -->
 	<div class="main-wrapper">
@@ -94,14 +91,16 @@
 							<ul class="submenu">
 								<li><a href="doctor-dashboard.html">Doctor Dashboard</a></li>
 								<li><a href="appointments.html">Appointments</a></li>
+
 								<li><a href="schedule-timings.html">Schedule Timing</a></li>
 								<li><a href="invoices.html">Invoices</a></li>
 								<li><a href="doctor-profile-settings.html">Profile Settings</a></li>
 							</ul>
-						</li>	
+						</li>
 						<li class="has-submenu">
 							<a href="">Mandoub <i class="fas fa-chevron-down"></i></a>
 							<ul class="submenu">
+
 								<li><a href="search.html">Search Doctor</a></li>
 								<li><a href="doctor-profile.html">Doctor Profile</a></li>
 								<li><a href="booking.html">Booking</a></li>
@@ -117,15 +116,12 @@
 								<li><a href="chat.html">Chat</a></li>
 								<li><a href="video-call.html">Video</a></li>
 								<li><a href="voice-call.html">Voice</a></li>
-								<li><a href="contact-us.html">Contact Us</a></li>
 							</ul>
 						</li>
-
-
 						<li>
 								<a href="contact-us.html">Contact Us</a>
 							</li>
-							<li>
+							<li class="active">
 								<a href="about-us.html">About Us</a>
 							</li>
 						<li class="login-link">
@@ -151,94 +147,144 @@
 		</header>
 		<!-- /Header -->
 
+		<!-- Breadcrumb -->
+		<div class="breadcrumb-bar">
+			<div class="container-fluid">
+				<div class="row align-items-center">
+					<div class="col-md-12 col-12">
+						<nav aria-label="breadcrumb" class="page-breadcrumb">
+							<ol class="breadcrumb">
+								<li class="breadcrumb-item"><a href="index.html">Home</a></li>
+								<li class="breadcrumb-item active" aria-current="page">Contact Us</li>
+							</ol>
+						</nav>
+						<h2 class="breadcrumb-title">Contact Us</h2>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- /Breadcrumb -->
+
 		<!-- Page Content -->
 		<div class="content">
-			<div class="container-fluid">
-				<div class="row">
-					<div class="col-md-8 offset-md-2">
+			<div class="container">
 
-						<!-- Account Content -->
-						<div class="account-content">
-							<div class="row align-items-center justify-content-center">
-								<div class="col-md-7 col-lg-6 login-left">
-									<img src="assets/img/login-banner.png" class="img-fluid" alt="Login Banner">
+				<!-- Doctor Details Tab -->
+				<div class="card">
+					<div class="card-body pt-3">
+						<div class="row">
+							<div class="col-12">
+
+								<!-- About Details -->
+								<div class="widget about-widget">
+									<h4 class="widget-title">About US</h4>
+									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+										tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+										veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+										commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
+										velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
+										occaecat cupidatat non proident, sunt in culpa qui officia deserunt
+										mollit anim id est laborum.</p>
 								</div>
-								<div class="col-md-12 col-lg-6 login-right">
-									<div class="login-header">
-										<h3>Doctor Register <a href="register.html">Not a Doctor?</a></h3>
+								<!-- /About Details -->
+
+								<!-- Education Details -->
+								<div class="widget education-widget">
+									<h4 class="widget-title">Our Service</h4>
+									<div class="experience-box">
+										<ul class="experience-list">
+											<li>
+												<div class="experience-user">
+													<div class="before-circle"></div>
+												</div>
+												<div class="experience-content">
+													<div class="timeline-content">
+														<h4>Chat</h4>
+														<div>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+															tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+															veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+															commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
+															velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
+															occaecat cupidatat non proident, sunt in culpa qui officia deserunt
+															mollit anim id est laborum.</div>
+													</div>
+												</div>
+											</li>
+											<li>
+												<div class="experience-user">
+													<div class="before-circle"></div>
+												</div>
+												<div class="experience-content">
+													<div class="timeline-content">
+														<h4>Voice Call</h4>
+														<div>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+															tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+															veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+															commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
+															velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
+															occaecat cupidatat non proident, sunt in culpa qui officia deserunt
+															mollit anim id est laborum.</div>
+													</div>
+												</div>
+											</li>
+											<li>
+												<div class="experience-user">
+													<div class="before-circle"></div>
+												</div>
+												<div class="experience-content">
+													<div class="timeline-content">
+														<h4>Video Call</h4>
+														<div>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+															tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+															veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+															commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
+															velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
+															occaecat cupidatat non proident, sunt in culpa qui officia deserunt
+															mollit anim id est laborum.</div>
+													</div>
+												</div>
+											</li>
+										</ul>
 									</div>
-
-									<!-- Register Form -->
-									<form action="doctor-dashboard.html">
-										<div class="form-group form-focus">
-											<input type="text" class="form-control floating">
-											<label class="focus-label">Name</label>
-										</div>
-										<div class="form-group form-focus">
-											<input type="text" class="form-control floating">
-											<label class="focus-label">Mobile Number</label>
-										</div>
-										<div class="form-group form-focus">
-											<input type="text" class="form-control floating">
-											<label class="focus-label">ID Card Number</label>
-										</div>
-										<div class="form-group form-focus">
-											<input type="text" class="form-control floating">
-											<label class="focus-label">Midical Registeration Number</label>
-										</div>
-										<div class="form-group form-focus">
-											<input type="email" class="form-control floating">
-											<label class="focus-label">Email Address</label>
-										</div>
-										<div class="form-group form-focus">
-											<input type="text" class="form-control floating datetimepicker">
-											<label class="focus-label">Date Of Birth</label>
-										</div>
-										<div class="form-group">
-											<select class="form-control select">
-												<option>Male</option>
-												<option>Female</option>
-											</select>
-										</div>
-										<div class="form-group">
-											<select class="form-control select">
-												<option>City 1</option>
-												<option>City 2</option>
-											</select>
-										</div>
-										<div class="form-group">
-											<select class="form-control select">
-												<option>Area 1</option>
-												<option>Area 2</option>
-											</select>
-										</div>
-										<div class="form-group form-focus">
-											<input type="password" class="form-control floating">
-											<label class="focus-label">Create Password</label>
-										</div>
-										<div class="form-group form-focus">
-											<input type="password" class="form-control floating">
-											<label class="focus-label">Confirm Password</label>
-										</div>
-										<div class="text-right">
-											<a class="forgot-link" href="login.html">Already have an account?</a>
-										</div>
-										<button class="btn btn-primary btn-block btn-lg login-btn"
-											type="submit">Signup</button>
-
-									</form>
-									<!-- /Register Form -->
-
 								</div>
+								<!-- /Education Details -->
+
+								<!-- Services List -->
+								<div class="service-list">
+									<h4>Services</h4>
+									<ul class="clearfix">
+										<li>Tooth cleaning </li>
+										<li>Root Canal Therapy</li>
+										<li>Implants</li>
+										<li>Composite Bonding</li>
+										<li>Fissure Sealants</li>
+										<li>Surgical Extractions</li>
+									</ul>
+								</div>
+								<!-- /Services List -->
+
+								<!-- Specializations List -->
+								<div class="service-list">
+									<h4>Specializations</h4>
+									<ul class="clearfix">
+										<li>Children Care</li>
+										<li>Dental Care</li>
+										<li>Oral and Maxillofacial Surgery </li>
+										<li>Orthodontist</li>
+										<li>Periodontist</li>
+										<li>Prosthodontics</li>
+									</ul>
+								</div>
+								<!-- /Specializations List -->
+
 							</div>
 						</div>
-						<!-- /Account Content -->
 
 					</div>
 				</div>
+				<!-- /Doctor Details Tab -->
 
 			</div>
-
 		</div>
 		<!-- /Page Content -->
 
@@ -361,7 +407,6 @@
 
 	</div>
 	<!-- /Main Wrapper -->
-
 	<!-- jQuery -->
 	<script src="assets/js/jquery.min.js"></script>
 
@@ -369,12 +414,8 @@
 	<script src="assets/js/popper.min.js"></script>
 	<script src="assets/js/bootstrap.min.js"></script>
 
-	<!-- Select2 JS -->
-	<script src="assets/plugins/select2/js/select2.min.js"></script>
-
-	<!-- Datetimepicker JS -->
-	<script src="assets/js/moment.min.js"></script>
-	<script src="assets/js/bootstrap-datetimepicker.min.js"></script>
+	<!-- Fancybox JS -->
+	<script src="assets/plugins/fancybox/jquery.fancybox.min.js"></script>
 
 	<!-- Custom JS -->
 	<script src="assets/js/script.js"></script>
