@@ -1,0 +1,21 @@
+/* custome general css style */
+.home-search .select2-container .select2-selection--single{
+    border-color: #ccc;
+}
+.home-search .search-box .search-info{
+    width: 100%;
+}
+.search-info .form-control{
+    padding-left: 35px;
+}
+
+.home-search .search-box .date-control{
+    padding-left: 15px;
+}
+.home-search .search-box .search-btn{
+    width: 100%;
+}
+
+.doctor-action .btn-white{
+    margin-right: 10px;
+}
