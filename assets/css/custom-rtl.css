@@ -1,0 +1,9 @@
+/* custome rtl css style */
+.search-info .form-control {
+    padding-right: 35px;
+
+}
+.doctor-action .btn-white {
+    margin-left: 10px;
+    margin-right: 0;
+}

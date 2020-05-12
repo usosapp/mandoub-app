@@ -25,8 +25,10 @@
 	<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
 	<meta name="theme-color" content="#ffffff">
 
-	<!-- Bootstrap CSS -->
-	<link rel="stylesheet" href="assets/css/bootstrap.min.css">
+	
+	<!-- Right CSS -->
+	<!-- <link rel="stylesheet" href="assets/css/bootstrap.min.css"> -->
+	<link rel="stylesheet" href="assets/plugins/bootstrap-rtl/css/bootstrap.min.css">
 
 	<!-- Fontawesome CSS -->
 	<link rel="stylesheet" href="assets/plugins/fontawesome/css/fontawesome.min.css">
@@ -38,11 +40,11 @@
 	<!-- Select2 CSS -->
 	<link rel="stylesheet" href="assets/plugins/select2/css/select2.min.css">
 
-	<!-- Fancybox CSS -->
-	<link rel="stylesheet" href="assets/plugins/fancybox/jquery.fancybox.min.css">
+
 
 	<!-- Main CSS -->
-	<link rel="stylesheet" href="assets/css/style.css">
+	<!-- <link rel="stylesheet" href="assets/css/style.css"> -->
+	<link rel="stylesheet" href="assets/css/style-rtl.css">
 
 	<!-- custome css -->
 	<link rel="stylesheet" href="assets/css/custom.css">
@@ -326,140 +328,146 @@
 										<div class="col-lg-4">
 											<div class="doc-info mb-3">
 												<div class="doctor-action">
-													<ul class="nav " id="myTab" role="tablist">
-														<li class="nav-item" data-value="chat" id="chatButton">
-															<a class="btn btn-white msg-btn  active" id="chat-tab"
-																data-toggle="tab" href="#chat" role="tab"
-																aria-controls="chat" aria-selected="true">
-																<i class="far fa-comment-alt"></i>
-															</a>
-														</li>
-														<li class="nav-item" data-value="voice" id="voiceButton">
-															<a class="btn btn-white msg-btn " id="voice-tab"
-																data-toggle="tab" href="#voice" role="tab"
-																aria-controls="voice" aria-selected="true">
-																<i class="fas fa-microphone-alt"></i>
-															</a>
-														</li>
-														<li class="nav-item" data-value="video" id="videoButton">
-															<a class="btn btn-white msg-btn " id="video-tab"
-																data-toggle="tab" href="#video" role="tab"
-																aria-controls="video" aria-selected="true">
-																<i class="fas fa-video"></i>
-															</a>
-														</li>
-													</ul>
-													<div class="tab-content" id="myTabContent">
-														<div class="tab-pane fade show active" id="chat" role="tabpanel"
-															aria-labelledby="chat-tab">
-															<div class="total-fees">
-																<div class="row">
-																	<div class="col-1">
-																		<i class="far fa-money-bill-alt"></i>
-																	</div>
-																	<div class="col-11">
-																		Chat fees 
-																		<span>
-																			100 L.E
-																		</span>
-																	</div>
-																</div>
-															</div>
-														</div>
-														<div class="tab-pane fade" id="voice" role="tabpanel"
-															aria-labelledby="voice-tab">
-															<div class="total-fees">
-																<div class="row">
-																	<div class="col-1">
+													<div class="row">
+														<div class="col-12">
+															<ul class="nav " id="myTab" role="tablist">
+																<li class="nav-item" data-value="chat" id="chatButton">
+																	<a class="btn btn-white msg-btn  active" id="chat-tab"
+																		data-toggle="tab" href="#chat" role="tab"
+																		aria-controls="chat" aria-selected="true">
+																		<i class="far fa-comment-alt"></i>
+																	</a>
+																</li>
+																<li class="nav-item" data-value="voice" id="voiceButton">
+																	<a class="btn btn-white msg-btn " id="voice-tab"
+																		data-toggle="tab" href="#voice" role="tab"
+																		aria-controls="voice" aria-selected="true">
+																		<i class="fas fa-microphone-alt"></i>
+																	</a>
+																</li>
+																<li class="nav-item" data-value="video" id="videoButton">
+																	<a class="btn btn-white msg-btn " id="video-tab"
+																		data-toggle="tab" href="#video" role="tab"
+																		aria-controls="video" aria-selected="true">
 																		<i class="fas fa-video"></i>
-																	</div>
-																	<div class="col-11">
-																		Basic Video Call 05:00 Min
-																		<span>
-																			100 L.E
-																		</span>
-																	</div>
-																</div>
-																<div class="row">
-																	<div class="col-1">
-																		<i class="fas fa-stopwatch"></i>
-																	</div>
-																	<div class="col-11">
-																		Extera Min
-																		<span>
-																			100 L.E
-																		</span>
-																	</div>
-																</div>
-																<div class="row">
-																	<div class="col-1">
-																		<i class="fas fa-user-md"></i>
-																	</div>
-																	<div class="col-11">
-																		Doctor Fees
-																		<span>
-																			100 L.E
-																		</span>
-																	</div>
-																</div>
-																<div class="row">
-																	<div class="col-1">
-																		<i class="far fa-money-bill-alt"></i>
-																	</div>
-																	<div class="col-11">
-																		Total Fees
-																		<span>
-																			100 L.E
-																		</span>
-																	</div>
-																</div>
-															</div>
+																	</a>
+																</li>
+															</ul>
 														</div>
-														<div class="tab-pane fade" id="video" role="tabpanel"
-															aria-labelledby="video-tab">
-															<div class="total-fees">
-																<div class="row">
-																	<div class="col-1">
-																		<i class="fas fa-video"></i>
-																	</div>
-																	<div class="col-11">
-																		Basic Video Call 05:00 Min
-																		<span>
-																			100 L.E
-																		</span>
-																	</div>
-																</div>
-																<div class="row">
-																	<div class="col-1">
-																		<i class="fas fa-stopwatch"></i>
-																	</div>
-																	<div class="col-11">
-																		Extera Min
-																		<span>
-																			100 L.E
-																		</span>
+														<div class="col-12">
+															<div class="tab-content" id="myTabContent">
+																<div class="tab-pane fade show active" id="chat" role="tabpanel"
+																	aria-labelledby="chat-tab">
+																	<div class="total-fees">
+																		<div class="row">
+																			<div class="col-1">
+																				<i class="far fa-money-bill-alt"></i>
+																			</div>
+																			<div class="col-11">
+																				Chat fees 
+																				<span>
+																					100 L.E
+																				</span>
+																			</div>
+																		</div>
 																	</div>
 																</div>
-																<div class="row">
-																	<div class="col-1">
-																		<i class="fas fa-user-md"></i>
-																	</div>
-																	<div class="col-11">
-																		Doctor Fees
-																		<span>
-																			100 L.E
-																		</span>
+																<div class="tab-pane fade" id="voice" role="tabpanel"
+																	aria-labelledby="voice-tab">
+																	<div class="total-fees">
+																		<div class="row">
+																			<div class="col-1">
+																				<i class="fas fa-video"></i>
+																			</div>
+																			<div class="col-11">
+																				Basic Video Call 05:00 Min
+																				<span>
+																					100 L.E
+																				</span>
+																			</div>
+																		</div>
+																		<div class="row">
+																			<div class="col-1">
+																				<i class="fas fa-stopwatch"></i>
+																			</div>
+																			<div class="col-11">
+																				Extera Min
+																				<span>
+																					100 L.E
+																				</span>
+																			</div>
+																		</div>
+																		<div class="row">
+																			<div class="col-1">
+																				<i class="fas fa-user-md"></i>
+																			</div>
+																			<div class="col-11">
+																				Doctor Fees
+																				<span>
+																					100 L.E
+																				</span>
+																			</div>
+																		</div>
+																		<div class="row">
+																			<div class="col-1">
+																				<i class="far fa-money-bill-alt"></i>
+																			</div>
+																			<div class="col-11">
+																				Total Fees
+																				<span>
+																					100 L.E
+																				</span>
+																			</div>
+																		</div>
 																	</div>
 																</div>
-																<div class="row">
-																	<div class="col-1">
-																		<i class="far fa-money-bill-alt"></i>
-																	</div>
-																	<div class="col-11">
-																		Total Fees
-																		<span>
-																			100 L.E
-																		</span>
+																<div class="tab-pane fade" id="video" role="tabpanel"
+																	aria-labelledby="video-tab">
+																	<div class="total-fees">
+																		<div class="row">
+																			<div class="col-1">
+																				<i class="fas fa-video"></i>
+																			</div>
+																			<div class="col-11">
+																				Basic Video Call 05:00 Min
+																				<span>
+																					100 L.E
+																				</span>
+																			</div>
+																		</div>
+																		<div class="row">
+																			<div class="col-1">
+																				<i class="fas fa-stopwatch"></i>
+																			</div>
+																			<div class="col-11">
+																				Extera Min
+																				<span>
+																					100 L.E
+																				</span>
+																			</div>
+																		</div>
+																		<div class="row">
+																			<div class="col-1">
+																				<i class="fas fa-user-md"></i>
+																			</div>
+																			<div class="col-11">
+																				Doctor Fees
+																				<span>
+																					100 L.E
+																				</span>
+																			</div>
+																		</div>
+																		<div class="row">
+																			<div class="col-1">
+																				<i class="far fa-money-bill-alt"></i>
+																			</div>
+																			<div class="col-11">
+																				Total Fees
+																				<span>
+																					100 L.E
+																				</span>
+																			</div>
+																		</div>
 																	</div>
 																</div>
 															</div>
@@ -1769,7 +1777,8 @@
 
 	<!-- Bootstrap Core JS -->
 	<script src="assets/js/popper.min.js"></script>
-	<script src="assets/js/bootstrap.min.js"></script>
+		<script src="assets/plugins/bootstrap-rtl/js/bootstrap.min.js"></script>
+
 
 	<!-- Sticky Sidebar JS -->
 	<script src="assets/plugins/theia-sticky-sidebar/ResizeSensor.js"></script>
@@ -1786,7 +1795,7 @@
 	<script src="assets/plugins/fancybox/jquery.fancybox.min.js"></script>
 
 	<!-- Custom JS -->
-	<script src="assets/js/script.js"></script>
+	<script src="assets/js/script-rtl.js"></script>
 
 </body>
 
